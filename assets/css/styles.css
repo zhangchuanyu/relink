@@ -1,0 +1,269 @@
+.whyus{
+	font-size: 25px;
+
+}
+#blogSubMenu,#joinussubmenu,#consultingsubmenu,#domesticsubmenu{
+	background-color: #666666
+	
+}
+.a{
+  color: white;
+}
+.a:hover{background-color: #A08C77;
+color: white}
+	
+.dropdown-item {
+	color: white
+}
+
+.slogen{
+	
+	
+	background-image:url(../img/fudiao.jpg);
+	
+	background-repeat: no-repeat;
+}
+.line{
+	border-bottom: 2px solid lightgrey;
+}
+@Keyframes animateforlogo{
+	0%{
+		transform: translateY(-100%);
+	}
+	50%{
+		transform: translateY(-50%)
+	}
+	70%{
+		transform: translateY(-30%)
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+@Keyframes logo{
+	0%{
+		transform: translateY(100%);
+	}
+	50%{
+		transform: translateY(50%)
+	}
+	70%{
+		transform: translateY(30%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+.animateforlogo{
+	display: inline-block;
+	width: 17.5rem;
+	overflow: hidden;
+	animation: animateforlogo 1s linear;
+	}
+.animateforlogo>img{
+	animation: logo 1s linear;
+}
+/*qr code*/
+.qr>img{
+  height: 100px;
+  display: block;
+}
+.dropdown:hover .dropdown-menu {
+      display: block;
+    }
+
+    .dropdown-menu {
+      margin-top: 0;
+    }
+
+ 
+
+    .header 
+    a {
+        color: white;
+    }
+    .header 
+    a:hover{
+      color: white;
+    }
+    #navBar ul.navbar-nav{
+      border-bottom: 1px solid #dadada;
+      box-shadow: 0px 5px 5px -5px #b5b5b5;
+    }
+
+    .navbar-expand-lg .navbar-brand>img{
+      width: 18rem;
+    }
+    
+    .brand {
+      max-width: 14rem;
+    }
+
+
+    .btn-primary:not(label.btn) {
+      background-color: #A08C77;
+      border-color: #A08C77;
+    }
+
+    .btn-primary[href]:hover {
+      box-shadow: 0 4px 11px rgb(148 126 106 / 70%);
+    }
+
+    .navbar-nav-item:hover .nav-link {
+      color: #A08C77;
+    }
+
+    @media (min-width: 991.98px) {
+      .navbar-nav-item .nav-link {
+        transition: transform 1s;
+      }
+
+      .navbar-nav-item:hover .nav-link {
+        color: #A08C77;
+
+      }
+
+      .navbar-expand-lg .navbar-nav .dropdown-menu {
+        border-top: 0.1875rem solid #A08C77;
+      }
+    }
+
+
+    [class*="navbar-expand"] .dropdown-item:hover,
+    .nav .nav-link:not(.active):hover {
+      color: white;
+    }
+.b{
+  border-top: 2px solid #A08C77;
+  left:229px;
+  top:-2px;
+  display: none;
+  position: absolute;
+
+  margin-left: 20px;
+  background-color: #666666;
+}
+.sub{
+  position: relative;
+}
+.sub:hover >.b{
+  display: block;
+}
+/*contact us css*/
+.needline{
+  border-bottom: 1px solid lightgrey;
+  padding: 10px;
+}
+.shangse{
+  color:#A08C77;
+}
+
+/*ditelv*/
+.modal-content{
+  width: 130%;
+}
+@media (max-width: 830px){
+  .modal-content{
+    width: 100%;
+  }
+}
+footer>a{color: black;}
+
+/*western 31*/
+.davis{
+  max-width: 200px;
+  text-align: center;
+  margin-left: 0px;
+}
+@media (min-width: 993px){
+  .davis{
+    margin-left:308px;
+  }
+}
+
+
+/*slider css*/
+ol, ul, li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        img {
+            display: block;
+            border: none;
+        }
+        .fl {
+            float: left;
+        }
+        .fr {
+            float: right;
+        }
+        .switch {
+            position: absolute;
+            width: 566px;
+            height: 302px;
+            left: -283px;
+            margin-top: 100px;
+            margin-left: 50%;
+            background: url(images/lunbo-1.png) no-repeat;
+            background-size: 566px 302px;
+        }
+        .switch-bottom {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 66px;
+            background: rgba(0,0,0,0.65);
+        }
+        .switch-l,
+        .switch-r {
+            width: 45px;
+            height: 66px;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .switch-r {
+            margin-top: -46px;
+        }
+        .switch-img {
+            margin-left: 16px;
+            cursor: pointer;
+        }
+        .switch-img {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .switch-list {
+            float: left;
+            width: 475px;
+            height: 66px;
+            margin-top: -66px;
+            margin-left: 45px;
+        }
+        .switch-item {
+            float: left;
+            width: 95px;
+            height: 66px;
+        }
+        .active {
+            background-color: #fff;
+        }
+        .switch-min {
+            margin: 5px;
+            cursor: pointer;
+        }
+        .switch-title {
+            position: absolute;
+            bottom: 66px;
+            width: 100%;
+            height: 36px;
+            background: rgba(0,0,0,0.4);
+        }
+        .switch-info {
+            margin-top: 10px;
+            margin-left: 8px;
+            font-size: 16px;
+            color: #fff;
+        }
